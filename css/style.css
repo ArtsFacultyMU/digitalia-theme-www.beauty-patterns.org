@@ -140,15 +140,6 @@ div.language-switcher-language-url a {
     background-color: black;
 }
 
-.no-upper-pager .upper-pager {
-	display: none;
-}
-
-.bp-browse-paged .view-filters,
-.bp-search-page-paged .view-filters {
-	display: none;
-}
-
 
 
 .region-header, .region-header a, .region-header li a.is-active, .region-header .site-branding__text, .region-header .site-branding, .region-header .site-branding__text a, .region-header .site-branding a, .region-secondary-menu .menu-item a, .region-secondary-menu .menu-item a.is-active {
@@ -157,7 +148,15 @@ div.language-switcher-language-url a {
 }
 */
 
+/* selectively hide upper pager and search forms */
+.no-upper-pager .upper-pager {
+	display: none;
+}
 
+.bp-browse-paged .view-filters,
+.bp-search-page-paged .view-filters {
+	display: none;
+}
 
 /* search filters layout */
 .bp-browse-page .view-filters .form--inline {
