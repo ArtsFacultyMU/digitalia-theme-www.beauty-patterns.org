@@ -1,3 +1,4 @@
+/*
 a, a:visited, 
 .site-footer .content a, 
 .site-footer .content a:visited,
@@ -28,6 +29,8 @@ a:hover,
 	border-radius: 0;
 	color: white;
 }
+*/
+
 
 /* Comparison */
 .fade-in
@@ -60,6 +63,8 @@ a:hover,
   pointer-events: none;
 }
 /* *** */
+
+/*
 
 .region-primary-menu ul.menu > li:nth-last-child(5)
 {
@@ -150,7 +155,7 @@ div.language-switcher-language-url a {
     color: black;
     text-decoration: none;
 }
-
+*/
 
 
 
