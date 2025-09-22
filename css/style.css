@@ -33,6 +33,11 @@ a:hover,
 
 
 /* Comparison */
+.hidden
+{
+  display: none;
+}
+
 .fade-in
 {
   opacity: 100%;
@@ -43,11 +48,6 @@ a:hover,
 {
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
-}
-
-.hidden
-{
-  display: none;
 }
 
 .compare-floating
