@@ -62,6 +62,10 @@ a:hover,
 {
   pointer-events: none;
 }
+
+.region-primary-menu ul.menu > li:nth-last-child(5) {
+        flex-grow: 2;
+}
 /* *** */
 
 /*
